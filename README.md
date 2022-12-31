@@ -20,3 +20,14 @@ Please cite our work:
   publisher={Optica Publishing Group}
 }
 ```
+
+```
+@inproceedings{petale2021tridental,
+  title={Tridental resource assignment algorithm for spectrally-spatially flexible optical networks},
+  author={Petale, Shrinivas and Zhao, Juzi and Subramaniam, Suresh},
+  booktitle={ICC 2021-IEEE International Conference on Communications},
+  pages={1--6},
+  year={2021},
+  organization={IEEE}
+}
+```
