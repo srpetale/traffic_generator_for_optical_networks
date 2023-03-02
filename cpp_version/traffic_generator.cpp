@@ -77,7 +77,7 @@ ConnectionRequest NetworkTrafficGenerator::get_connection_data() {
 
 double NetworkTrafficGenerator::generate_arrival_event() {
 	current_time += random_exponential(lambda_in_poisson_distribution);
-	return random_exponential(mean_holding_time);
+	return random_exponential(pow(mean_holding_time, -1));
 }
 
 double NetworkTrafficGenerator::random_exponential(double denominator)
